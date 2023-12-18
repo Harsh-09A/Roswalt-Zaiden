@@ -369,6 +369,23 @@ aside {
 .mst-img {
   height: 500px;
 }
+
+/* Gallery Section */
+
+/* Gallery */
+.carousel-image {
+  /* width: 19em !important; */
+  height: 200px;
+}
+.carousel-image img {
+  width: 100% !important;
+  height: 100%;
+}
+
+.floor-img img {
+  border: 1px solid var(--colorPrimary) !important;
+}
+
 /* ------------------------------------------ */
 
 /* Common Code */
