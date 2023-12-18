@@ -370,20 +370,22 @@ aside {
   height: 500px;
 }
 
-/* Gallery Section */
+/* Amenities Section */
 
-/* Gallery */
 .carousel-image {
-  /* width: 19em !important; */
   height: 200px;
 }
 .carousel-image img {
   width: 100% !important;
   height: 100%;
 }
+.owl-nav {
+  display: none;
+}
 
-.floor-img img {
-  border: 1px solid var(--colorPrimary) !important;
+/* Location Section */
+.location-features i {
+  color: var(--colorPrimary) !important;
 }
 
 /* ------------------------------------------ */

@@ -1,3 +1,4 @@
+// Owl Carousel
 $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 10,
@@ -14,4 +15,9 @@ $(".owl-carousel").owlCarousel({
       items: 4,
     },
   },
+});
+
+// Gallery fancy Box
+Fancybox.bind('[data-fancybox="gallery-a"]', {
+  // Your custom options
 });
