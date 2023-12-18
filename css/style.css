@@ -4,6 +4,10 @@
   font-family: MyCustomFont;
   src: url("../fonts/varsity_regular.ttf");
 }
+@font-face {
+  font-family: Trajan_Pro_Bold;
+  src: url("../fonts/Trajan_Pro_Bold.ttf");
+}
 
 :root,
 html {
@@ -80,7 +84,8 @@ aside {
   width: 100%;
   font-size: 1.7em;
   text-align: center;
-  color: var(--colorGold);
+  color: var(--colorPrimary);
+  font-family: Trajan_Pro_Bold;
 }
 /* For Desktop */
 @media only screen and (min-width: 990px) {
