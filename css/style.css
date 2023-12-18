@@ -348,3 +348,19 @@ aside {
     display: none;
   }
 }
+
+/* Overview Section */
+.sub-heading {
+  text-align: center;
+}
+.overview-para {
+  text-align: justify;
+}
+
+/* Pricing */
+/* For Mobile */
+@media only screen and (max-width: 990px) {
+  .price-table {
+    width: 500px;
+  }
+}
