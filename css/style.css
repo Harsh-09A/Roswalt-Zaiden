@@ -364,3 +364,52 @@ aside {
     width: 500px;
   }
 }
+
+/* FLoor Plan Section */
+.mst-img {
+  height: 500px;
+}
+/* ------------------------------------------ */
+
+/* Common Code */
+
+/* OVERLAYS */
+.overlay-container {
+  position: relative;
+}
+.overlay-slider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.overlay-container:hover .overlay-slider-bottom,
+.overlay-container:hover .overlay-slider-top {
+  height: 100%;
+}
+.overlay-slider-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+}
+.enq-btn {
+  text-transform: uppercase;
+  border: 0.1vw solid var(--colorBorderWhite);
+  background: 0 0;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.5s ease-in-out;
+  &:hover {
+    border: 0.1vw solid var(--colorBorderWhite);
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
