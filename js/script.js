@@ -21,3 +21,10 @@ $(".owl-carousel").owlCarousel({
 Fancybox.bind('[data-fancybox="gallery-a"]', {
   // Your custom options
 });
+
+// Popup After First Load - 3 Sec
+$(window).ready(function () {
+  setTimeout(function () {
+    $("#popupModal").modal("show");
+  }, 3000);
+});
