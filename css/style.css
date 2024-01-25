@@ -703,3 +703,13 @@ aside {
     font-size: 0.8em;
   }
 }
+
+.read_more {
+  background-color: transparent;
+  font-size: 14px;
+  margin: 0;
+  border-radius: 0;
+  width: fit-content;
+  padding-left: 10px;
+  color: var(--colorSecondary);
+}
